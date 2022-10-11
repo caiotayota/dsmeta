@@ -7,6 +7,8 @@ import { BASE_URL } from "../../utils/request";
 import NotificationButton from '../NotificationButton';
 import './style.css';
 
+
+
 function SalesCard() {
 
     const min = new Date(new Date().setDate(new Date().getDate() - 365));
